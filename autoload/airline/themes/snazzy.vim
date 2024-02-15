@@ -24,14 +24,12 @@ endfunction
 
 let g:airline#themes#snazzy#palette = {}
 
-let s:modified = {
-  \ 'airline_c': s:color_list(s:orange, '')
-  \ }
+let s:modified = {}
 let s:warning = s:color_list(s:yellow, s:base01)
 let s:error = s:color_list(s:red, s:base02)
 
 let s:airline_a_normal = s:color_list(s:base02, s:blue)
-let s:airline_b_normal = s:color_list(s:base1, s:base01)
+let s:airline_b_normal = s:color_list(s:base2, s:base01)
 let s:airline_c_normal = s:color_list(s:base3, s:base02)
 let g:airline#themes#snazzy#palette.normal = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_normal)
 let g:airline#themes#snazzy#palette.normal_modified = s:modified
