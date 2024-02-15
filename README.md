@@ -74,6 +74,12 @@ let g:lightline = {
 \ }
 ```
 
+### Airline
+Enable the [vim-airline](https://github.com/vim-airline/vim-airline) colorscheme
+```
+let g:airline_theme='snazzy'
+```
+
 ## Contributing
 There are only a couple of things you need to know if you want to help out:
 1. All of the code lives inside `colors/snazzy.vim`
